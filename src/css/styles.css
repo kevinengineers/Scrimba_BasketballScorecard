@@ -8,7 +8,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border: 2px solid white;
+  padding: 50px;
 }
 
 @font-face {
@@ -37,6 +37,15 @@ body {
   color: whitesmoke;
   margin-bottom: -30px;
   font-size: 40px;
+}
+
+.btn {
+  border: 1px solid white;
+  padding: 8px;
+  background-color: #1b244b;
+  border-radius: 5px;
+  color: white;
+  font-family: "CursedTimerUlil-Aznm.ttf", Arial;
 }
 
 

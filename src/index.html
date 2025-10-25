@@ -15,20 +15,20 @@
   <div id="parent">
     <div class="score-parent-container" id="parent-home-container">
       <h2 class="score-header poetsen-one-regular">HOME</h2>
-      <div class="container" id="home-container">0</div>
+      <div class="container" id="home-container"></div>
       <div class="home-button-container">
-        <button class="btn" type="button"></button>
-        <button class="btn" type="button"></button>
-        <button class="btn" type="button"></button>
+        <button id="home-one" class="btn" type="button" onclick="addOne('home')">+1</button>
+        <button id = "home-two" class="btn" type="button" onclick="addTwo('home')">+2</button>
+        <button id = "home-three" class="btn" type="button" onclick="addThree('home')">+3</button>
       </div>
     </div>
     <div class="score-parent-container" id="parent-guest-container">
       <h2 class="score-header poetsen-one-regular">AWAY</h2>
-      <div class="container" id="guest-container">0</div>
+      <div class="container" id="guest-container"></div>
       <div class="guest-button-container">
-        <button class="btn" type="button"></button>
-        <button class="btn" type="button"></button>
-        <button class="btn" type="button"></button>
+        <button id = "guest-one" class="btn" type="button" onclick="addOne('guest')">+1</button>
+        <button id = "guest-two" class="btn" type="button" onclick="addTwo('guest')">+2</button>
+        <button id = "guest-three" class="btn" type="button" onclick="addThree('guest')">+3</button>
       </div>
     </div>
   </div>
